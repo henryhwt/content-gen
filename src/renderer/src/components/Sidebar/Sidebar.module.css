@@ -1,0 +1,43 @@
+.container {
+    width: 250px;
+    height: 100vw;
+    background-color: rgb(236, 173, 217);
+    margin-right: 10%;
+    float: left;
+}
+
+.row{
+    /* width: 100%;
+    height: 50px;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: centre; */
+    /* flex-direction: row; */
+    /* color: white; */
+
+    /* align-items: centre; */
+
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    /* flex: 70%;  */
+    /* display: grid; 
+    place-items: centre; */
+    color: white;
+}
+
+
+.row:hover{
+    background-color: rgb(201, 118, 201);
+}
+
+.list{
+    height: auto;
+    width: 100%;
+    padding: 0
+}
